@@ -65,7 +65,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         <div className="mt-auto flex items-center gap-3 p-4 bg-surface rounded-xl">
           <img
-            src="src/assets/profile-pict.png"
+            src="/profile-pict.png"
             alt="Profile"
             className="w-10 h-10 rounded-full object-cover"
           />

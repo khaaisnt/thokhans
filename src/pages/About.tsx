@@ -49,7 +49,7 @@ export default function About() {
           <div className="absolute inset-0 bg-primary/20 blur-3xl opacity-50 group-hover:opacity-75 transition-opacity" />
           <div className="relative w-full h-full rounded-full border-4 border-surface shadow-2xl overflow-hidden ring-1 ring-white/10">
             <img
-              src="src/assets/profile-pict.png"
+              src="/profile-pict.png"
               alt="Rakha Adrian"
               className="w-full h-full object-cover"
             />

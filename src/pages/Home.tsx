@@ -12,7 +12,7 @@ export default function Home() {
       <section className="relative h-75 md:h-100 rounded-2xl overflow-hidden bg-linear-to-br from-primary/20 to-black p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 border border-white/5">
         <div className="relative z-10 w-full md:w-1/3 aspect-square shadow-2xl rounded-xl overflow-hidden border border-white/10">
           <img
-            src="src/assets/profile-pict.png"
+            src="/profile-pict.png"
             alt="Rakha Adrian"
             className="w-full h-full object-cover"
           />

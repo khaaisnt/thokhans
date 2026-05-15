@@ -9,22 +9,22 @@ export default function Home() {
   return (
     <div className="space-y-12">
       {/* Hero Section */}
-      <section className="relative h-75 md:h-100 rounded-2xl overflow-hidden bg-linear-to-br from-primary/20 to-black p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 border border-white/5">
-        <div className="relative z-10 w-full md:w-1/3 aspect-square shadow-2xl rounded-xl overflow-hidden border border-white/10">
+      <section className="relative h-75 md:h-100 rounded-2xl overflow-hidden bg-linear-to-br from-primary/20 to-black p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+        <div className="relative z-10 w-28 h-w-28 md:h-full md:w-1/4 aspect-square shadow-2xl rounded-xl overflow-hidden border border-white/10">
           <img
             src="/profile-pict.png"
             alt="Rakha Adrian"
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="relative z-10 text-center md:text-left flex-1 space-y-4">
-          <p className="text-sm font-bold uppercase tracking-widest text-text-primary">
+        <div className="relative z-10 text-center md:text-left flex-1 space-y-2 sm:space-y-4">
+          <p className="text-xs sm:text-sm font-bold uppercase tracking-widest text-text-primary">
             Profile
           </p>
-          <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none">
-            Rakha Adrian Nur Tanaya
+          <h1 className="text-xl md:text-8xl font-black tracking-tighter leading-none">
+            Rakha Adrian <br className="hidden md:block" /> Nur Tanaya
           </h1>
-          <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm mt-5 text-text-secondary font-semibold">
+          <div className="flex md:flex-wrap justify-center md:justify-start gap-4 text-xs md:text-sm mt-5 text-text-secondary font-semibold">
             <span>Frontend Engineer</span>
             <span>•</span>
             <span>9 Projects Completed</span>
